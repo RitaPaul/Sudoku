@@ -73,6 +73,14 @@ let newBoard = function(){
    let j4 = Random_num(4,5);
    let j5 = Random_num(7,8);
 
+   let j6 = Random_num(0,1);
+   let j7 = Random_num(3,4);
+   let j8 = Random_num(6,8);
+
+   let j9 = Random_num(0,1);
+   let j10 = Random_num(3,4);
+   let j11 = Random_num(6,8);
+
 
 
     
@@ -80,6 +88,11 @@ let newBoard = function(){
    console.log(sud[0][j0] = Random_num(1,3));
    console.log(sud[0][j1] = Random_num(4,6));
    console.log(sud[0][j2] = Random_num(7,9));
+
+   console.log(sud[1][1] = Random_num(4,6));
+   console.log(sud[1][4] = Random_num(7,9));
+   console.log(sud[1][7] = Random_num(2,3));
+
 
    console.log(sud[2][j3] = Random_num(7,9));
    console.log(sud[2][j4] = Random_num(1,3));
@@ -92,6 +105,20 @@ let newBoard = function(){
    console.log(sud[5][j1] = Random_num(8,9));
    console.log(sud[5][j2] = Random_num(2,4));
    console.log(sud[5][j0] = Random_num(5,7));
+
+   console.log(sud[6][j6] = Random_num(1,2));
+   console.log(sud[6][j7] = Random_num(3,5));
+   console.log(sud[6][j8] = Random_num(6,8));
+
+   console.log(sud[7][j6] = Random_num(3,5));
+   console.log(sud[7][j7] = Random_num(6,8));
+   console.log(sud[7][j8] = Random_num(1,2));
+
+
+
+
+
+
 
 
    //console.log(sud[0][j2] = Math.floor(Math.random() *  ) + 1;
